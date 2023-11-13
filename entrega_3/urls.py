@@ -18,8 +18,7 @@ from django.urls import path, include
 from App_entrega3.views import  saludar_con_html
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls), 
     path("alumno/", include("App_entrega3.urls")),
     path("inicio/", saludar_con_html),
-    
-]
+        ]
