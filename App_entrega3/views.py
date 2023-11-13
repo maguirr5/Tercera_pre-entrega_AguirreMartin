@@ -1,4 +1,6 @@
-from django.shortcuts import render
+#from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.urls import reverse
 from App_entrega3.models import Alumno, ArteMarcial, Pelicula
 from App_entrega3.forms import AlumnoFormulario, ArtemarcialFormulario, PeliculaFormulario
  #Create your views here.
